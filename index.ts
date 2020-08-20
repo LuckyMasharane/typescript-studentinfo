@@ -11,11 +11,11 @@ let studentInfo: Array<any> = [
   {StudentName:"Blessing",StudentSurname:"Mhlongo",StudentGrade:"09",StudentAge:"23"},
   {StudentName:"Fayve",StudentSurname:"Mandonsela",StudentGrade:"12",StudentAge:"26"},
   {StudentName:"Evans",StudentSurname:"Mabaso",StudentGrade:"10",StudentAge:"25"},
-  {StudentName:"Bongani",StudentSurname:"Ndlamini",StudentGrade:"11",StudentAge:"23"},
+  {StudentName:"Bongani",StudentSurname:"Ndlamini",StudentGrade:"11",StudentAge:"31"},
   {StudentName:"Mcendisi",StudentSurname:"Nkosi",StudentGrade:"10",StudentAge:"24"},
   {StudentName:"Proud",StudentSurname:"Malale",StudentGrade:"11",StudentAge:"24"},
-  {StudentName:"December",StudentSurname:"Masharane",StudentGrade:"12",StudentAge:"29"},
-  {StudentName:"Samkelo",StudentSurname:"Lusenga",StudentGrade:"11",StudentAge:"28"},
+  {StudentName:"December",StudentSurname:"Masharane",StudentGrade:"12",StudentAge:"30"},
+  {StudentName:"Samkelo",StudentSurname:"Lusenga",StudentGrade:"11",StudentAge:"29"},
 ];
 
 getAllInfo(studentInfo);
