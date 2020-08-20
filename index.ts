@@ -8,6 +8,7 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 let studentInfo: Array<any> = [
   {StudentName:"Lucky",StudentSurname:"Masharane",StudentGrade:"10",StudentAge:"20"},
   {StudentName:"Goodman",StudentSurname:"Ngomane",StudentGrade:"12",StudentAge:"19"},
+  {StudentName:"Blessing",StudentSurname:"Mhlongo",StudentGrade:"09",StudentAge:"23"},
   {StudentName:"Fayve",StudentSurname:"Mandonsela",StudentGrade:"12",StudentAge:"26"},
   {StudentName:"Evans",StudentSurname:"Mabaso",StudentGrade:"10",StudentAge:"25"},
   {StudentName:"Bongani",StudentSurname:"Ndlamini",StudentGrade:"11",StudentAge:"23"},
@@ -15,7 +16,6 @@ let studentInfo: Array<any> = [
   {StudentName:"Proud",StudentSurname:"Malale",StudentGrade:"11",StudentAge:"24"},
   {StudentName:"December",StudentSurname:"Masharane",StudentGrade:"12",StudentAge:"29"},
   {StudentName:"Samkelo",StudentSurname:"Lusenga",StudentGrade:"11",StudentAge:"28"},
-  {StudentName:"Blessing",StudentSurname:"Mhlongo",StudentGrade:"09",StudentAge:"23"}
 ];
 
 getAllInfo(studentInfo);
