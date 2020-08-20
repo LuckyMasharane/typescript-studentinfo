@@ -15,7 +15,7 @@ let studentInfo: Array<any> = [
   {StudentName:"Mcendisi",StudentSurname:"Nkosi",StudentGrade:"10",StudentAge:"24"},
   {StudentName:"Proud",StudentSurname:"Malale",StudentGrade:"11",StudentAge:"24"},
   {StudentName:"December",StudentSurname:"Masharane",StudentGrade:"12",StudentAge:"30"},
-  {StudentName:"Samkelo",StudentSurname:"Lusenga",StudentGrade:"11",StudentAge:"3"},
+  {StudentName:"Samkelo",StudentSurname:"Lusenga",StudentGrade:"11",StudentAge:"33"},
 ];
 
 getAllInfo(studentInfo);
@@ -30,13 +30,17 @@ console.log("==============================================");
 console.log("The youngest student ");
 
 var smallest = 0;
+var name, surname,grade = "";
 let arr_list:Array<any> =[];
 
 for(var i = 0; i < studentInfo.length; i++){
   if(studentInfo[i].StudentAge > smallest){
     smallest = studentInfo[i].StudentAge;
+    name = studentInfo[i].StudentName;
+    surname = studentInfo[i].StudentSurname;
+    grade = studentInfo[i].StudentGrade;
   }
 }
-console.log(smallest);
+console.log(name + " | " + surname + " | " + " Grade " + grade + " | " + smallest);
 
 // console.log(studentInfo[1].StudentName + " | " + studentInfo[1].StudentSurname + " | " + " Grade "+studentInfo[1].StudentGrade + " | " + studentInfo[1].StudentAge );
