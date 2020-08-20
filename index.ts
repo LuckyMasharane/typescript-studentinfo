@@ -15,7 +15,7 @@ let studentInfo: Array<any> = [
   {StudentName:"Mcendisi",StudentSurname:"Nkosi",StudentGrade:"10",StudentAge:"24"},
   {StudentName:"Proud",StudentSurname:"Malale",StudentGrade:"11",StudentAge:"24"},
   {StudentName:"December",StudentSurname:"Masharane",StudentGrade:"12",StudentAge:"30"},
-  {StudentName:"Samkelo",StudentSurname:"Lusenga",StudentGrade:"11",StudentAge:"31"},
+  {StudentName:"Samkelo",StudentSurname:"Lusenga",StudentGrade:"11",StudentAge:"21"},
 ];
 
 getAllInfo(studentInfo);
