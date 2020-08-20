@@ -18,7 +18,7 @@ let studentInfo: Array<any> = [
   {StudentName:"Samkelo",StudentSurname:"Lusenga",StudentGrade:"11",StudentAge:"21"},
 ];
 
-console.log("==============ALL Information==============")
+console.log("============== ALL Information ==============")
 getAllInfo(studentInfo);
 function getAllInfo(studentInfo){
   for( var x = 0; x < studentInfo.length; x++){
