@@ -27,13 +27,13 @@ function getAllInfo(studentInfo){
 }
 
 console.log("==============================================");
-console.log("The youngest student ");
+console.log("The oldest student ");
 
-var smallest = 100;
+var smallest = 0;
 var name, surname,grade = "";
 
 for(var i = 0; i < studentInfo.length; i++){
-  if(studentInfo[i].StudentAge < smallest){
+  if(studentInfo[i].StudentAge > smallest){
     smallest = studentInfo[i].StudentAge;
     name = studentInfo[i].StudentName;
     surname = studentInfo[i].StudentSurname;
