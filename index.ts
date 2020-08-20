@@ -29,12 +29,12 @@ function getAllInfo(studentInfo){
 console.log("==============================================");
 console.log("The youngest student ");
 
-var smallest = 0;
+var smallest = 100;
 var name, surname,grade = "";
 let arr_list:Array<any> =[];
 
 for(var i = 0; i < studentInfo.length; i++){
-  if(studentInfo[i].StudentAge > smallest){
+  if(studentInfo[i].StudentAge < smallest){
     smallest = studentInfo[i].StudentAge;
     name = studentInfo[i].StudentName;
     surname = studentInfo[i].StudentSurname;
