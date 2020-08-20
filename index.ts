@@ -7,10 +7,10 @@ appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
 let studentInfo: Array<any> = [
   {StudentName:"Lucky",StudentSurname:"Masharane",StudentGrade:"10",StudentAge:"20"},
-  {StudentName:"Goodman",StudentSurname:"Ngomane",StudentGrade:"12",StudentAge:"19"},
+  {StudentName:"Goodman",StudentSurname:"Ngomane",StudentGrade:"12",StudentAge:"18"},
   {StudentName:"Blessing",StudentSurname:"Mhlongo",StudentGrade:"09",StudentAge:"23"},
   {StudentName:"Fayve",StudentSurname:"Mandonsela",StudentGrade:"12",StudentAge:"26"},
-  {StudentName:"Evans",StudentSurname:"Mabaso",StudentGrade:"10",StudentAge:"25"},
+  {StudentName:"Evans",StudentSurname:"Mabaso",StudentGrade:"10",StudentAge:"15"},
   {StudentName:"Bongani",StudentSurname:"Ndlamini",StudentGrade:"11",StudentAge:"31"},
   {StudentName:"Mcendisi",StudentSurname:"Nkosi",StudentGrade:"10",StudentAge:"24"},
   {StudentName:"Proud",StudentSurname:"Malale",StudentGrade:"11",StudentAge:"24"},
@@ -31,7 +31,6 @@ console.log("The youngest student ");
 
 var smallest = 100;
 var name, surname,grade = "";
-let arr_list:Array<any> =[];
 
 for(var i = 0; i < studentInfo.length; i++){
   if(studentInfo[i].StudentAge < smallest){
